@@ -1080,6 +1080,7 @@ section.dark .lede {
   text-transform: uppercase;
   display: none;
   box-shadow: 0 8px 32px oklch(0 0 0 / 0.18);
+  text-decoration: none;
 }
 @media (max-width: 880px) {
   .mobile-cta {
