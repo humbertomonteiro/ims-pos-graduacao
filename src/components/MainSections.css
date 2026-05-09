@@ -134,7 +134,7 @@
 
 .dif-card {
   border-radius: 14px;
-  padding: 28px 24px;
+  padding: 1rem;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -142,13 +142,12 @@
   align-items: center;
   text-align: center;
   gap: 16px;
-  min-height: 200px;
 }
 .dif-card.navy {
-  background: var(--navy);
+  background: linear-gradient(45deg, var(--ink-soft), var(--navy));
 }
 .dif-card.orange {
-  background: var(--orange);
+  background: linear-gradient(45deg, var(--orange-deep), var(--orange));
 }
 .dif-card .ico {
   width: 44px;
